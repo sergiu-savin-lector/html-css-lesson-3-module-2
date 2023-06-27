@@ -1,0 +1,53 @@
+:root {
+  --primary-color: #273da4;
+  --link-color: #acdeff;
+  --link-color_hover: #f8f9fa;
+}
+
+* {
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+h1 {
+  color: #fefefe;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.container {
+  margin-left: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.answers-list {
+  list-style-type: circle;
+}
+
+.answers-list li + li {
+  margin-top: 16px;
+}
+
+.answers-list a,
+.answers-list a:visited {
+  color: var(--link-color);
+  margin-left: 8px;
+  text-decoration: none;
+}
+
+.answers-list a:hover,
+.answers-list a:focus {
+  color: var(--link-color_hover);
+  text-decoration: underline;
+}
+
+.answers-list a::before {
+  content: "\2192";
+  margin-right: 4px;
+  text-decoration: none;
+}

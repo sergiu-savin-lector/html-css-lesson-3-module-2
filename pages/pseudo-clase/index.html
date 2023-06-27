@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-clase</title>
+    <style type="text/css">
+      a,
+      a:visited,
+      a:active {
+        color: blue;
+      }
+
+      a:focus,
+      a:hover {
+        color: red;
+      }
+
+      /*
+      Ordinea de scriere a pseudo-claselor:
+        :link - orice element cu href
+        :visited - utilizatorul a mai vizitat acel link
+        :focus - utilizatorul este 'focusat' pe element (tab)
+        :hover - utilizatorul este cu mouse-ul peste acel element
+        :active - utilizatorul a dat click
+      */
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="#acasa">Acasa</a></li>
+        <li><a href="#despre">Despre</a></li>
+      </ul>
+    </header>
+    <main>
+      <section id="acasa" class="section">Acasa</section>
+      <section id="despre" class="section">Despre</section>
+    </main>
+  </body>
+</html>

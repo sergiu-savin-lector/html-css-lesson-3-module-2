@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectori CSS</title>
+    <style>
+      /* Stil lista selectori */
+      li {
+        color: royalblue;
+      }
+
+      .element-cu-fundal-rosu {
+        background: red;
+      }
+
+      .list-item {
+      }
+
+      /* Stil combinare */
+      .alert {
+        background: #efefef;
+        border: 3px dashed #ebe3ff;
+        color: black;
+        padding: 16px;
+      }
+
+      .success {
+        color: #436643;
+      }
+
+      .warning {
+        color: #b78d3e;
+      }
+
+      .error {
+        color: red;
+      }
+
+      [title="Atribut"] {
+        color: red;
+      }
+
+      [href^="#"] {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section title="Lista de selectori">
+        <h2>Lista de selectori</h2>
+        <ul>
+          <li>Selector de element (tag)</li>
+          <li id="list-item_primary">Selector de id</li>
+          <li class="list-item">Selectori de clasa</li>
+          <li title="Atribut">Selector de atribut</li>
+          <li>Selectori de pseudo-clasa (:hover, :focus, etc.)</li>
+          <li>Selectori de pseudo-element (::before, ::after, etc.)</li>
+        </ul>
+      </section>
+      <section id="test" title="Atribut">
+        <h2>Exemplu de combinare a selectorului clasa</h2>
+        <p class="alert success">Reîncărcarea contului a fost finalizată</p>
+        <p class="alert warning">Atenție, tarifele se vor schimba</p>
+        <p class="alert error">Eroare tranzacție</p>
+      </section>
+    </main>
+  </body>
+</html>

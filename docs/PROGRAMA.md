@@ -1,0 +1,9 @@
+- Utilizarea selectorilor de bază
+- Actualizarea ierarhiei arborelui genealogic: părinte, copil, strămoș și descendent
+- Clarificarea diferenței dintre selectorul copil și descendent
+- De ce stilurile tuturor sunt scrise în același fișier css
+- Lista de link-uri și adăugați hover, focus și o stare activă
+- De ce e nevoie de :hover și :focus în elemente interactive
+- Formatele de intrare a culorilor rgb, rgba și hex
+- Devtools -> Explicați fila Computed
+- Specificitatea selectorului și ordinea CSS
